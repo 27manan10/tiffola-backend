@@ -35,7 +35,7 @@ const getMyOrders = async (req, res) => {
   }
 };
 
-// 3. TOGGLE SKIP DATE (NEW!)
+// 3. TOGGLE SKIP DATE
 const toggleSkipDate = async (req, res) => {
   try {
     const { orderId, date } = req.body; // date format: "YYYY-MM-DD"
